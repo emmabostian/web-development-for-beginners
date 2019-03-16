@@ -11,5 +11,19 @@ section {
     width: 500px;
     padding: 30px;
     border-radius: 2px;
-    margin-top: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background: #5cdb95;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    align-self: center;
 }
